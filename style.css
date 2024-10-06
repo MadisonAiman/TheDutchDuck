@@ -1,0 +1,98 @@
+/* Modern Minimalist Palette - Updated */
+
+/* Body and General */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light Grey instead of white */
+    color: #2c2c2c; /* Dark Charcoal */
+  }
+  
+  /* Header */
+  header {
+    background-color: #4a4a4a; /* Light Slate */
+    color:  #f5d0c5;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #4a4a4a; /* Light Slate */
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: #e0e0e0; /* Very Light Grey instead of white */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #f5d0c5; /* Soft Blush */
+  }
+  
+  /* Main Section */
+  main {
+    background-color: #f0f0f0;
+    padding: 40px;
+  }
+  
+  .menu-category ul {
+    list-style: none; 
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .image-carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Set a maximum width for the carousel */
+    overflow: hidden; /* Hide overflow to create a nice look */
+    margin: 0 auto; /* Center the carousel */
+  }
+  
+  .image-carousel img {
+    width: 100%; /* Make images responsive */
+    display: none; /* Hide images by default */
+    border-radius: 8px; /* Optional: Rounded corners for images */
+    transition: opacity 0.5s ease-in;
+  }
+  
+  /* Show the first image by default */
+  .image-carousel img:first-child {
+    display: block;
+  }
+  
+  /* Menu Section */
+  #menu {
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+    background-color: #d9d9d9; /* Soft grey for the menu section background */
+  }
+  
+  /* Hours & Contact Section */
+  #hours {
+    background-color: #f5d0c5; /* Soft Blush */
+    color: #4a4a4a; /* Light Slate */
+    padding: 40px;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .menu-category {
+      min-width: 80%; /* More room for mobile view */
+    }
+  }
+  
